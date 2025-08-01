@@ -3,7 +3,42 @@
 This project is a comprehensive machine learning solution to identify and analyze fraudulent credit card transactions. It integrates both **classification** to detect whether a transaction is fraudulent, and **regression** to predict risk levels associated with the fraud.
 
 ---
+## 📊 Dataset
 
+The dataset used is `Application_data.csv`, which includes transaction records with features like transaction amount, location, device type, etc. The label indicates whether the transaction was legitimate (0) or fraudulent (1).
+
+> **Note:** Due to privacy and security reasons, the dataset is not publicly available in this repository. If you are interested in the data, please contact the author directly or use similar open datasets like those from [Kaggle](https://www.kaggle.com).
+
+---
+
+## 🎯 Objectives
+
+- Understand and clean the dataset.
+- Explore patterns that distinguish fraud from legitimate transactions.
+- Train and evaluate classification and regression models.
+- Optimize model performance using tuning techniques.
+- Compare model outputs and choose the best one.
+
+---
+
+## 🧠 Techniques Used
+
+- **Exploratory Data Analysis (EDA)** using `seaborn`, `matplotlib`
+- **Feature Engineering** (e.g., encoding, scaling)
+- **Modeling** using:
+  - Logistic Regression
+  - Random Forest Classifier
+  - XGBoost
+  - Support Vector Machine (SVM)
+  - Linear & Ridge Regression for fraud scoring
+- **Performance Evaluation** with:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1 Score
+  - Confusion Matrix
+
+---
 ## 📌 Project Overview
 
 - **Goal**: Detect fraudulent transactions and assess the level of fraud risk.
@@ -41,22 +76,7 @@ This project is a comprehensive machine learning solution to identify and analyz
    git clone https://github.com/your-username/credit-card-fraud-detection.git
 Navigate to the project folder
 
-bash
-Copy
-Edit
-cd credit-card-fraud-detection
-Install required dependencies
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Launch the notebook
-
-bash
-Copy
-Edit
-jupyter notebook credit_card_fraud_detection.ipynb
 🧠 Machine Learning Approach
 Classification:
 
@@ -83,37 +103,11 @@ matplotlib
 seaborn
 xgboost
 jupyter
-You can install them using:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-📌 Dataset
-File: application_data.csv
-
-Make sure it is in the same directory as the notebook.
-
-(Note: Due to privacy and size, dataset is not included. Use any synthetic or anonymized credit card transaction dataset.)
-
-📈 Exploratory Data Analysis
-Handled class imbalance using techniques like SMOTE
-
-Visualized fraud vs. non-fraud patterns
-
-Checked correlations and feature importances
 
 🙋‍♂️ Author
 Shiva Kumar Uppara
 🎓 CSE Undergrad | Data Science & ML Enthusiast
-📫 Email: [your-email@example.com]
-🔗 GitHub: https://github.com/your-username
+📫 Email: [u.shivakumar3333@gmail.com]
+🔗 GitHub: https://github.com/LoneWarrior3
 
-📃 License
-This project is licensed under the MIT License. Feel free to use, modify, and share.
 
-vbnet
-Copy
-Edit
-
-Let me know if you want a `.pdf` version or if you're submitting this somewhere and want a more
